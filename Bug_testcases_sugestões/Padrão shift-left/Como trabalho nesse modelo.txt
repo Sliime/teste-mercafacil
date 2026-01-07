@@ -1,0 +1,7 @@
+Já utilizei o padrão shift-left em muitos projetos que trabalhei, sendo a grande maioria. 
+
+Então quando estávamos no inicio de um projeto, junto com os devs e PO, normalmente dava sugestões de cenários de exceções que a aplicação podia ter, como um cpf inválido ou CNPJ inválido, e também melhorias para o usuário como o usuário não precisar adicionar padrões de texto como por exemplo o padrão de cpf: XXX.XXX.XXX-YY, que podemos validar isso dentro da própria aplicação, ou até mesmo um preenchimento automático de endereço baseado no CEP.
+
+Também nessa etapa já começava a desenhas os cenários de testes que iriam ser implementado como forma manual ou automatizada, criando todo o esqueleto e planejamento do teste de forma que facilita e adianta o processo no futuro quando o produto já esta pronto para validações. 
+
+Depois de tudo isso feito, apenas fazer nossas regressões de forma automatizada para evitar um retrabalho caso surja alterações no projeto.

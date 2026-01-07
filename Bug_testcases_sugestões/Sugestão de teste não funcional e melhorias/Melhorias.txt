@@ -1,0 +1,5 @@
+Creio que o produto precise de mais identificadores únicos e principalmente uma opção para deletar sua conta de maneira rápida, verifiquei essa opção de deletar o cadastro e notei que tem um tempo enorme para que sua conta possa ser desativada por completo. 
+
+A Parte do formulário pede muitas informações obrigatórias e também existe erro de português em alguns textos, como o " acougue " que pode ser encontrado na pagina inicial do produto. 
+
+A aba de pedidos na conta do usuário, deveria ter uma opção de "cancelar" pedido em caso do usuário não conseguir ir mais buscar ou comprar o pedido na data planejada ou por falta de dinheiro, evitando processo desnecessário da loja. 

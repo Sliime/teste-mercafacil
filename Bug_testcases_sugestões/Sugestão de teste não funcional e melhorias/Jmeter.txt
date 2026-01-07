@@ -1,0 +1,15 @@
+Podemos realizar testes de carga, stress e performance com a ferramenta Jmeter, evitando que no futuro possamos sofrer com alta demanda de usuários.
+
+Sugestão de ferramenta:
+
+
+O Que o JMeter Pode Fazer?
+O JMeter é amplamente usado por desenvolvedores, testadores e administradores de sistemas para:
+
+Detectar problemas de desempenho;
+
+Medir o impacto de alterações em uma aplicação;
+
+Simular cenários reais de uso com múltiplos usuários simultâneos;
+
+Gerar relatórios completos de performance.

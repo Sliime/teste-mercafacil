@@ -1,0 +1,36 @@
+Gravidade e Prioridade: Mínima
+Passos para Reproduzir: 
+
+Acessar o site da mercafacil pelo link: https://multilojas.mercafacil.com/loja-10
+Clicar em Minha conta
+Colocar um e-mail não cadastrado no campo informe o e-mail
+Adicionar um cpf não cadastrado no campo cpf
+Conferir os dados pessoais e adicionar o telefone
+Na parte de CEP adicionar um cep inválido: 01509-015
+Clique em escolher estado e selecione a primeira opção: AC
+
+Resultado Esperado: Ver a lista de Cidades do Acre.
+Resultado Atual: Campo cidade se encontra bloqueado.
+Detalhes Adicionais: Ambiente de automação de testes
+
+Prova do bug: print em anexo
+
+
+
+
+Bug que não faz parte do processo de login / cadastro: 
+
+Gravidade e Prioridade: Mínima
+Passos para Reproduzir: 
+
+Acessar o site da mercafacil pelo link: https://multilojas.mercafacil.com/loja-10
+Arrastar a barra de departamentos em baixo do banner de promoções para a esquerda
+Visualizar o nome do departamento açougue
+
+Resultado Esperado: Nome do departamento sendo "açougue".
+Resultado Atual: Nome esta escrito "acougue".
+Detalhes Adicionais: Ambiente de automação de testes
+
+Prova do bug: print em anexo
+
+

@@ -1,0 +1,103 @@
+Feature: Tela de Login
+  Como usuário do sistema mercafacil
+  Quero fazer login com minhas credenciais
+  Para acessar minha conta e conseguir comprar produtos
+
+  Background:
+    Dado que estou na página de inicial do sistema
+
+  # TestCase 1: Login bem-sucedido
+  Teste: Usuário realiza login com sucesso
+    Dado que o usuário possui um cadastro válido com email e senha
+    Quando o usuário clicar em "Minha conta"
+    E clicar em "Entrar / Criar conta"
+    E preencher o campo email com um email "mercafacil@gmail.com"
+    E clicar em avançar
+    E preenche o campo de senha com a senha do "senhamerca51"
+    E clicar em entrar    
+    Então o usuário deve ver seu nome logado no canto superior direito
+
+
+
+
+
+_
+
+Cenário de teste: Cadastrar um usuário no sistema para que ele possa desfrutar das promoções da mercafacil.
+Descrição: Como um usuário mercafacil, preciso ter uma conta cadastrada no portal, para isso o sistema precisa dos dados nome, email, senha, Data de nascimento, sexo valido, telefone, CEP, cidade, bairro, numero e tipo de residencia  se registrar no sistema.
+
+Para cadastro de um usuário novo, ele não pode ter um e-mail ou cpf cadastrado no sistema.
+
+O cpf precisa ser validado e a senha ter 8 dígitos.
+
+Caso de teste: 
+
+Objetivo do teste:
+ Checar se um usuário com os dados corretos, email, senha, cpf e demais informações de cadastro conseguem se registrar no sistema.
+
+pré-condições: 
+
+1) E-mail do usuário valido e não cadastrado no sistema
+2) Senha precisa ser confirmada e ter mais de 8 dígitos
+3) Usuário precisa preencher todas as informações de cadastro obrigatório: nome, email, senha, Data de nascimento, sexo valido, telefone, CEP, cidade, bairro, numero e tipo de endereço.
+4) aceitar os termos e condições da empresa
+5) validar se o usuário esta logado
+
+StepByStep and Results: 
+
+1) Clicar em minha conta e entrar ou criar conta.
+2) Deve aparecer o campo cadastro ou login
+3) Preencher o campo email com um email não registrado e clicar em avançar
+4) Deve aparecer o a janela de cadastro de cpf
+5) Preencher o campo cpf com um cpf não registrado no sistema e clicar em avançar
+6) Deve aparecer a janela de dados pessoais com nome, cpf e data de nascimento, sexo e telefone
+7) Preencher os campos nome, cpf, data de nascimento, sexo e telefone então clicar em avançar
+8) Deve aparecer a janela para preencher endereço
+9) Preencher o campo CEP, cidade, bairro, avenida, numero e escolher o tipo do endereço e clicar em avançar
+10) Confirmar endereço no mapa
+11) Deve ser redirecionado para a janela de criação de senha
+12) Preencher o campo senha e depois o campo confirmar senha com uma senha valida de 8 dígitos e iguais em ambos os campos
+13) aceitar os termos e condições
+14) clicar em criar conta
+15) Deve aparecer o pop-up no campo superior direito avisando que o usuário foi criado com sucesso
+
+
+
+
+Feature: Cadastro de usuario
+  Como usuário do sistema mercafacil
+  Quero me cadastrar
+  Para que consiga me desfrutar das promoções do site
+
+  Background:
+    Dado que estou na página de inicial do sistema
+
+  # TestCase 1: Cadastro bem-sucedido
+  Teste: Usuário realiza login com sucesso
+    Dado que o usuário possui um email: "julianmercafacil@gmail.com", senha "senha123" e CPF:"744.116.350-11"
+    Quando o usuário clicar em "Minha conta"
+    E clicar em "Entrar / Criar conta"
+    E preencher o campo email com um email "mercafacil@gmail.com"
+    E clicar em avançar
+    E Preencher o campo cpf com um cpf valido "744.116.350-11"
+    E clicar em avançar
+    E preencher "Nome", "Data de nascimento"
+    E clicar em um "sexo valido"
+    E preenche o campo de "telefone"
+    E clicar em avançar
+    E preencher o campo "CEP"
+    E Validar campo "cidade"
+    E Validar campo "bairro"
+    E Validar campo "Rua"
+    E preencher campo "Número"
+    E preencher campo "complemento"
+    E marcar "residencia"
+    E clicar em avançar
+    E confirmar endereço no mapa
+    E preencher campo senha
+    E preencher campo confirmar senha
+    E assinalar li e aceito termos de contrato
+    E clicar em criar conta    
+    Então o usuário deve ver seu nome logado no canto superior direito com uma mensagem "bem vindo, 'nome do usuario' "
+
+
