@@ -4,19 +4,17 @@ import Login from '../pages/login'
 import Produto from '../pages/produto'
 
 describe('Loja', () =>{
+    let userData;
     beforeEach(() => {
         Loja.visitarPagina();
-        Cadastro.abrirPaginaCadastro();
-        Login.preencherEmail();
-        Login.preencherSenha();
-        Login.validarUser();
+        cy.fixture('user').then((data) => {
+        userData = data;
+    });
     })
 
     it('Pesquisar produto', () => {
-
         Loja.pesquisarProduto();
         Produto.validarProduto();
-
     }
     )
 })
