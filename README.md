@@ -1,3 +1,20 @@
+#Como executar:
+
+Tenha node js instalado no sistema.
+
+Entre na pagina do projeto, instale os requisitos do projeto com: 
+npm install
+
+Rode o projeto com: npx cypress run
+
+
+
+
+
+
+
+
+
 # teste-mercafacil
 Teste em cypress para o desafio da mercafacil
 
