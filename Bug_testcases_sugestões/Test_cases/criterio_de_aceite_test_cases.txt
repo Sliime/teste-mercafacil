@@ -17,6 +17,8 @@ Feature: Tela de Login
     E clicar em entrar    
     Então o usuário deve ver seu nome logado no canto superior direito
 
+Resultado obtido: Nome do usuário aparecendo na tela inicial no canto superior direito
+
 
 
 
@@ -61,7 +63,7 @@ StepByStep and Results:
 14) clicar em criar conta
 15) Deve aparecer o pop-up no campo superior direito avisando que o usuário foi criado com sucesso
 
-
+Resultado obtido: Pop up agradecendo o usuário por ter se cadastrado no sistema
 
 
 Feature: Cadastro de usuario
@@ -99,5 +101,7 @@ Feature: Cadastro de usuario
     E assinalar li e aceito termos de contrato
     E clicar em criar conta    
     Então o usuário deve ver seu nome logado no canto superior direito com uma mensagem "bem vindo, 'nome do usuario' "
+
+Resultado: "Mensagem bem vindo julianmercafacil"
 
 
